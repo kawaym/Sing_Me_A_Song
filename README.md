@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Sing Me a Song
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📜 Um aplicativo de recomendação de músicas
 
-## Available Scripts
+   <img alt="GitHub license" src="https://img.shields.io/github/license/devgabrieldejesus/readme-model?color=4A90E2&label=LICENSE&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
 
-In the project directory, you can run:
+  <a href="https://github.com/kawaym">
+    <img alt="Follow kawaym" src="https://img.shields.io/static/v1?label=Follow&message=kawaym&style=for-the-badge&color=4A90E2&labelColor=222222" />
+  </a>
+</p>
 
-### `npm start`
+💡 Já pediu para alguém alguma recomendação de música? Chegou a hora de transformar isso em código. Nessa semana, você vai construir a rede Sing me a Song. Ou melhor, os testes desta rede!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sing me a song é uma aplicação para recomendação anômina de músicas. Quanto mais as pessoas curtirem uma recomendação, maior a chance dela ser recomendada para outras pessoas 🙂
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Instalação
 
-### `npm test`
+Faça o download do código-fonte e sua <a href="https://github.com/kawaym/Sing_Me_A_Song-API">API</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Instale-os usando:
 
-### `npm run build`
+Bash:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Agora basta colocar o servidor em funcionamento com:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+npx start
+```
 
-### `npm run eject`
+Acesse <a href="localhost:5000">o link </a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+E já pode aproveitar o melhor aplicativo para músicas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Configuração para Desenvolvimento
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Caso queira testar o uso do aplicativo, basta rodar na mesma pasta do projeto o comando:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npx cypress open
+```
 
-## Learn More
+## 🗃 Histórico de lançamentos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- 0.1.0
+  - O primeiro lançamento adequado
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📋 Meta
 
-### Code Splitting
+Kaway Henrique da Rocha Marinho – kaway.rocha@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[https://github.com/kawaym/Sing_Me_A_Song](https://github.com/kawaym/)
 
-### Analyzing the Bundle Size
+## 🚀 Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Faça o _fork_ do projeto (<https://github.com/kawaym/Sing_Me_A_Song/fork>)
+2. Crie uma _branch_ para sua modificação (`git checkout -b meu-novo-recurso`)
+3. Faça o _commit_ (`git commit -am 'Adicionando um novo recurso...'`)
+4. _Push_ (`git push origin meu-novo-recurso`)
+5. Crie um novo _Pull Request_
